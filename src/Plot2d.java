@@ -88,7 +88,7 @@ public class Plot2d extends JApplet {
 //    }
 
     public static void show(double[][] matrix){
-        JFrame f = new JFrame("ShapesDemo2D");
+        JFrame f = new JFrame("Runtime");
         f.addWindowListener(new WindowAdapter() {
             public void windowClosing(WindowEvent e) {
                 System.exit(0);
