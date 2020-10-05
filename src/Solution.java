@@ -51,7 +51,7 @@ public class Solution {
             long time = (findMatrix(matrix) + findMatrix(matrix) + findMatrix(matrix) + findMatrix(matrix) + findMatrix(matrix)) / 5;
             result[0][i] = i;
             result[1][i] = Math.log10((double)time);
-            System.out.println("matrix size n pow of 2: " + i + " || log nano seconds of runtime:" + result[1][i]);
+            System.out.println("matrix size n pow of 2: " + i + " || log nano seconds of runtime:" + result[1][i] + " || time: " + time);
         }
         return result;
     }
